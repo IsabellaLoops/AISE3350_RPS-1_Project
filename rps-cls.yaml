@@ -1,0 +1,17 @@
+# Dataset root directory relative to the yolo11n-cls directory
+path: Data
+
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: train # images for training
+val: val # images for validation
+test: test # images for testing
+
+nc: 3
+
+# Classes
+names:
+    0: rock
+    1: paper
+    2: scissors
+
+backbone: yolo11n
